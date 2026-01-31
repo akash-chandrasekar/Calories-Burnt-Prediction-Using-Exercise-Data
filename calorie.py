@@ -47,7 +47,7 @@ input_data = pd.DataFrame([[
     body_temp,
     heart_rate,
     duration
-]], columns=features)
+]], columns=['Weight','Body_Temp','Heart_Rate','Duration'])
 
 # ---------------- PREDICTION ----------------
 st.markdown("---")
