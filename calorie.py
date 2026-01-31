@@ -17,7 +17,7 @@ st.markdown(
 @st.cache_resource
 def load_artifact():
     artifact = joblib.load("calories_regression.pkl")
-    return artifact["model"], artifact["features"]
+    return artifact["model"]
 
 model, features = load_artifact()
 
