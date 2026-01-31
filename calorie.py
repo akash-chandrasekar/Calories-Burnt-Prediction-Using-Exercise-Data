@@ -65,7 +65,6 @@ if st.button("🔍 Predict Calories Burned"):
 
 # ---------------- DEBUG (OPTIONAL) ----------------
 with st.expander("🔎 Model Info"):
-    st.write("Expected Features:", features)
     st.write("Model Type:", type(model).__name__)
 
 # ---------------- FOOTER ----------------
