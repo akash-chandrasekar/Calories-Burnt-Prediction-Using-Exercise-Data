@@ -19,7 +19,7 @@ def load_artifact():
     artifact = joblib.load("calories_regression.pkl")
     return artifact["model"]
 
-model, features = load_artifact()
+model = load_artifact()
 
 # ---------------- USER INPUT ----------------
 st.subheader("🧾 Enter Exercise Details")
